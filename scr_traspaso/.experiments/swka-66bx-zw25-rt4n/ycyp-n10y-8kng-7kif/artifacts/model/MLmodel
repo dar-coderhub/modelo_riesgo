@@ -1,0 +1,157 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.0
+mlflow_version: 2.10.0
+model_size_bytes: 415882
+model_uuid: 0ebe02f840d341298f6a068a940a1da3
+run_id: ycyp-n10y-8kng-7kif
+signature:
+  inputs: '[{"type": "double", "name": "campo_104_Log10", "required": true}, {"type":
+    "double", "name": "campo_10_targetEncoder", "required": true}, {"type": "double",
+    "name": "campo_72", "required": true}, {"type": "double", "name": "campo_76",
+    "required": true}, {"type": "double", "name": "campo_68_sc", "required": true},
+    {"type": "double", "name": "campo_85_sc", "required": true}, {"type": "double",
+    "name": "campo_36_targetEncoder", "required": true}, {"type": "double", "name":
+    "campo_95", "required": true}, {"type": "double", "name": "campo_26_sc", "required":
+    true}, {"type": "double", "name": "campo_69_Log10", "required": true}, {"type":
+    "double", "name": "campo_61_Log10", "required": true}, {"type": "double", "name":
+    "campo_22_Log10", "required": true}, {"type": "double", "name": "campo_73_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_86_Log10_sc", "required":
+    true}, {"type": "double", "name": "campo_12_targetEncoder", "required": true},
+    {"type": "double", "name": "campo_71_sc", "required": true}, {"type": "double",
+    "name": "campo_70_Log10", "required": true}, {"type": "double", "name": "campo_78_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_101", "required": true},
+    {"type": "double", "name": "PCA_comp_6", "required": true}, {"type": "double",
+    "name": "campo_79_Log10", "required": true}, {"type": "double", "name": "campo_37",
+    "required": true}, {"type": "double", "name": "campo_62_Log10_sc", "required":
+    true}, {"type": "double", "name": "campo_72_Log10_sc", "required": true}, {"type":
+    "double", "name": "campo_69_Log10_sc", "required": true}, {"type": "double", "name":
+    "campo_100", "required": true}, {"type": "double", "name": "campo_91_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_74", "required": true}, {"type":
+    "double", "name": "campo_80", "required": true}, {"type": "double", "name": "campo_37_sc",
+    "required": true}, {"type": "double", "name": "campo_71", "required": true}, {"type":
+    "double", "name": "campo_83_indmag_Log10", "required": true}, {"type": "double",
+    "name": "campo_72_sc", "required": true}, {"type": "double", "name": "PCA_comp_4",
+    "required": true}, {"type": "double", "name": "campo_81", "required": true}, {"type":
+    "double", "name": "campo_92_Log10_sc", "required": true}, {"type": "double", "name":
+    "campo_53_targetEncoder", "required": true}, {"type": "double", "name": "campo_37_Log10",
+    "required": true}, {"type": "double", "name": "campo_83_indpos_targetEncoder",
+    "required": true}, {"type": "double", "name": "campo_87", "required": true}, {"type":
+    "double", "name": "campo_22_Log10_sc", "required": true}, {"type": "double", "name":
+    "campo_38_targetEncoder", "required": true}, {"type": "double", "name": "campo_83_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_77_Log10_sc", "required":
+    true}, {"type": "double", "name": "campo_62", "required": true}, {"type": "double",
+    "name": "campo_92_Log10", "required": true}, {"type": "double", "name": "campo_91",
+    "required": true}, {"type": "double", "name": "campo_62_sc", "required": true},
+    {"type": "double", "name": "campo_84_sc", "required": true}, {"type": "double",
+    "name": "campo_95_indmag_sc", "required": true}, {"type": "double", "name": "campo_60_cat_targetEncoder",
+    "required": true}, {"type": "double", "name": "campo_94_Log10_sc", "required":
+    true}, {"type": "double", "name": "PCA_comp_9", "required": true}, {"type": "double",
+    "name": "campo_26_Log10_sc", "required": true}, {"type": "double", "name": "campo_95_indmag",
+    "required": true}, {"type": "double", "name": "campo_61_sc", "required": true},
+    {"type": "double", "name": "PCA_comp_1", "required": true}, {"type": "double",
+    "name": "campo_77_sc", "required": true}, {"type": "double", "name": "campo_86_sc",
+    "required": true}, {"type": "double", "name": "campo_78_sc", "required": true},
+    {"type": "double", "name": "campo_11_targetEncoder", "required": true}, {"type":
+    "double", "name": "campo_75_Log10_sc", "required": true}, {"type": "double", "name":
+    "campo_74_Log10", "required": true}, {"type": "double", "name": "campo_81_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_68", "required": true}, {"type":
+    "double", "name": "campo_87_Log10", "required": true}, {"type": "double", "name":
+    "campo_23_Log10_sc", "required": true}, {"type": "double", "name": "campo_35_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_101_sc", "required": true},
+    {"type": "double", "name": "campo_79_sc", "required": true}, {"type": "double",
+    "name": "campo_92", "required": true}, {"type": "double", "name": "PCA_comp_8",
+    "required": true}, {"type": "double", "name": "campo_95_Log10", "required": true},
+    {"type": "double", "name": "campo_76_sc", "required": true}, {"type": "double",
+    "name": "campo_73", "required": true}, {"type": "double", "name": "PCA_comp_2",
+    "required": true}, {"type": "double", "name": "campo_73_sc", "required": true},
+    {"type": "double", "name": "campo_84_Log10_sc", "required": true}, {"type": "double",
+    "name": "campo_85", "required": true}, {"type": "double", "name": "campo_81_Log10",
+    "required": true}, {"type": "double", "name": "campo_22", "required": true}, {"type":
+    "double", "name": "campo_23_sc", "required": true}, {"type": "double", "name":
+    "campo_84_Log10", "required": true}, {"type": "double", "name": "campo_74_sc",
+    "required": true}, {"type": "double", "name": "campo_78", "required": true}, {"type":
+    "double", "name": "campo_71_Log10", "required": true}, {"type": "double", "name":
+    "PCA_comp_3", "required": true}, {"type": "double", "name": "campo_75_Log10",
+    "required": true}, {"type": "double", "name": "campo_80_sc", "required": true},
+    {"type": "double", "name": "campo_95_indpos_targetEncoder", "required": true},
+    {"type": "double", "name": "campo_20_targetEncoder", "required": true}, {"type":
+    "double", "name": "campo_85_Log10", "required": true}, {"type": "double", "name":
+    "campo_22_sc", "required": true}, {"type": "double", "name": "campo_35", "required":
+    true}, {"type": "double", "name": "campo_93_sc", "required": true}, {"type": "double",
+    "name": "campo_94_Log10", "required": true}, {"type": "double", "name": "campo_93_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_83_indmag_sc", "required":
+    true}, {"type": "double", "name": "campo_87_Log10_sc", "required": true}, {"type":
+    "double", "name": "campo_95_indmag_Log10", "required": true}, {"type": "double",
+    "name": "campo_34_targetEncoder", "required": true}, {"type": "double", "name":
+    "campo_93_Log10", "required": true}, {"type": "double", "name": "campo_83", "required":
+    true}, {"type": "double", "name": "campo_69", "required": true}, {"type": "double",
+    "name": "campo_23_Log10", "required": true}, {"type": "double", "name": "campo_81_sc",
+    "required": true}, {"type": "double", "name": "campo_72_Log10", "required": true},
+    {"type": "double", "name": "campo_94_sc", "required": true}, {"type": "double",
+    "name": "campo_95_Log10_sc", "required": true}, {"type": "double", "name": "campo_101_Log10",
+    "required": true}, {"type": "double", "name": "campo_70_sc", "required": true},
+    {"type": "double", "name": "PCA_comp_5", "required": true}, {"type": "double",
+    "name": "campo_77", "required": true}, {"type": "double", "name": "campo_35_Log10",
+    "required": true}, {"type": "double", "name": "campo_100_sc", "required": true},
+    {"type": "double", "name": "campo_79", "required": true}, {"type": "double", "name":
+    "campo_37_Log10_sc", "required": true}, {"type": "double", "name": "campo_69_sc",
+    "required": true}, {"type": "double", "name": "campo_75_sc", "required": true},
+    {"type": "double", "name": "campo_97_targetEncoder", "required": true}, {"type":
+    "double", "name": "Presenta_union_targetEncoder", "required": true}, {"type":
+    "double", "name": "campo_76_Log10_sc", "required": true}, {"type": "double", "name":
+    "campo_13_targetEncoder", "required": true}, {"type": "double", "name": "campo_79_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_61", "required": true}, {"type":
+    "double", "name": "campo_83_Log10", "required": true}, {"type": "double", "name":
+    "campo_71_Log10_sc", "required": true}, {"type": "double", "name": "campo_83_indmag",
+    "required": true}, {"type": "double", "name": "campo_94", "required": true}, {"type":
+    "double", "name": "campo_80_Log10", "required": true}, {"type": "double", "name":
+    "campo_83_sc", "required": true}, {"type": "double", "name": "campo_93", "required":
+    true}, {"type": "double", "name": "campo_35_sc", "required": true}, {"type": "double",
+    "name": "campo_78_Log10", "required": true}, {"type": "double", "name": "campo_87_sc",
+    "required": true}, {"type": "double", "name": "campo_80_Log10_sc", "required":
+    true}, {"type": "double", "name": "campo_70_Log10_sc", "required": true}, {"type":
+    "double", "name": "campo_104_Log10_sc", "required": true}, {"type": "double",
+    "name": "campo_101_Log10_sc", "required": true}, {"type": "double", "name": "campo_95_sc",
+    "required": true}, {"type": "double", "name": "campo_75", "required": true}, {"type":
+    "double", "name": "campo_39", "required": true}, {"type": "double", "name": "campo_95_indmag_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_61_Log10_sc", "required":
+    true}, {"type": "double", "name": "campo_68_Log10_sc", "required": true}, {"type":
+    "double", "name": "campo_64_targetEncoder", "required": true}, {"type": "double",
+    "name": "campo_51_targetEncoder", "required": true}, {"type": "double", "name":
+    "campo_84", "required": true}, {"type": "double", "name": "PCA_comp_7", "required":
+    true}, {"type": "double", "name": "campo_62_Log10", "required": true}, {"type":
+    "double", "name": "campo_104_sc", "required": true}, {"type": "double", "name":
+    "campo_76_Log10", "required": true}, {"type": "double", "name": "campo_100_Log10",
+    "required": true}, {"type": "double", "name": "campo_39_Log10", "required": true},
+    {"type": "double", "name": "campo_91_Log10", "required": true}, {"type": "double",
+    "name": "campo_86", "required": true}, {"type": "double", "name": "campo_85_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_100_Log10_sc", "required":
+    true}, {"type": "double", "name": "campo_23", "required": true}, {"type": "double",
+    "name": "campo_39_sc", "required": true}, {"type": "double", "name": "campo_39_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_92_sc", "required": true},
+    {"type": "double", "name": "campo_86_Log10", "required": true}, {"type": "double",
+    "name": "campo_91_sc", "required": true}, {"type": "double", "name": "campo_104",
+    "required": true}, {"type": "double", "name": "campo_70", "required": true}, {"type":
+    "double", "name": "campo_68_Log10", "required": true}, {"type": "double", "name":
+    "campo_26_Log10", "required": true}, {"type": "double", "name": "campo_77_Log10",
+    "required": true}, {"type": "double", "name": "campo_26", "required": true}, {"type":
+    "double", "name": "campo_73_Log10", "required": true}, {"type": "double", "name":
+    "campo_46_targetEncoder", "required": true}, {"type": "double", "name": "campo_83_indmag_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_74_Log10_sc", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-03-11 16:33:09.917571'

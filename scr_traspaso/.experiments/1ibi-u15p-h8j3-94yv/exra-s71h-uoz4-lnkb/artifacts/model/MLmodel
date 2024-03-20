@@ -1,0 +1,38 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.0
+mlflow_version: 2.10.0
+model_size_bytes: 27628
+model_uuid: 62de4944b3c847569ae581509d4ee906
+run_id: exra-s71h-uoz4-lnkb
+signature:
+  inputs: '[{"type": "double", "name": "PCA_comp_1", "required": true}, {"type": "double",
+    "name": "campo_72_Log10_sc", "required": true}, {"type": "double", "name": "campo_26_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_84_Log10_sc", "required":
+    true}, {"type": "double", "name": "campo_83_Log10", "required": true}, {"type":
+    "double", "name": "campo_22", "required": true}, {"type": "double", "name": "PCA_comp_2",
+    "required": true}, {"type": "double", "name": "campo_34_targetEncoder", "required":
+    true}, {"type": "double", "name": "campo_76_Log10_sc", "required": true}, {"type":
+    "double", "name": "campo_101_sc", "required": true}, {"type": "double", "name":
+    "campo_23_Log10_sc", "required": true}, {"type": "double", "name": "campo_93",
+    "required": true}, {"type": "double", "name": "campo_61_Log10_sc", "required":
+    true}, {"type": "double", "name": "campo_87_Log10_sc", "required": true}, {"type":
+    "double", "name": "campo_79_sc", "required": true}, {"type": "double", "name":
+    "PCA_comp_9", "required": true}, {"type": "double", "name": "PCA_comp_7", "required":
+    true}, {"type": "double", "name": "campo_104_Log10", "required": true}, {"type":
+    "double", "name": "campo_69_Log10", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-03-13 12:48:28.548502'

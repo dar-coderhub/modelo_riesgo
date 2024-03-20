@@ -1,0 +1,55 @@
+artifact_path: best_estimator
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.0
+mlflow_version: 2.10.0
+model_size_bytes: 14285
+model_uuid: 4378439c4b4f452b904026337c95b0d3
+run_id: iw7k-c1em-4zz0-0w1b
+signature:
+  inputs: '[{"type": "double", "name": "PCA_comp_1", "required": true}, {"type": "double",
+    "name": "campo_72_Log10", "required": true}, {"type": "double", "name": "campo_26_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_84_Log10", "required": true},
+    {"type": "double", "name": "campo_83_Log10", "required": true}, {"type": "double",
+    "name": "campo_22", "required": true}, {"type": "double", "name": "campo_46_targetEncoder",
+    "required": true}, {"type": "double", "name": "PCA_comp_2", "required": true},
+    {"type": "double", "name": "campo_34_targetEncoder", "required": true}, {"type":
+    "double", "name": "campo_76_Log10", "required": true}, {"type": "double", "name":
+    "campo_80_Log10", "required": true}, {"type": "double", "name": "campo_80", "required":
+    true}, {"type": "double", "name": "campo_101_Log10_sc", "required": true}, {"type":
+    "double", "name": "campo_23_Log10", "required": true}, {"type": "double", "name":
+    "campo_91_sc", "required": true}, {"type": "double", "name": "campo_93_sc", "required":
+    true}, {"type": "double", "name": "campo_93_Log10_sc", "required": true}, {"type":
+    "double", "name": "campo_62_sc", "required": true}, {"type": "double", "name":
+    "campo_60_cat_targetEncoder", "required": true}, {"type": "double", "name": "campo_61",
+    "required": true}, {"type": "double", "name": "campo_73", "required": true}, {"type":
+    "double", "name": "campo_73_Log10", "required": true}, {"type": "double", "name":
+    "campo_68_Log10", "required": true}, {"type": "double", "name": "campo_68_sc",
+    "required": true}, {"type": "double", "name": "campo_39_Log10", "required": true},
+    {"type": "double", "name": "campo_100", "required": true}, {"type": "double",
+    "name": "campo_97_targetEncoder", "required": true}, {"type": "double", "name":
+    "campo_75_Log10", "required": true}, {"type": "double", "name": "campo_87_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_79", "required": true}, {"type":
+    "double", "name": "campo_85_sc", "required": true}, {"type": "double", "name":
+    "campo_85_Log10_sc", "required": true}, {"type": "double", "name": "campo_81_Log10_sc",
+    "required": true}, {"type": "double", "name": "PCA_comp_8", "required": true},
+    {"type": "double", "name": "PCA_comp_9", "required": true}, {"type": "double",
+    "name": "PCA_comp_7", "required": true}, {"type": "double", "name": "campo_104_Log10_sc",
+    "required": true}, {"type": "double", "name": "campo_69_Log10", "required": true},
+    {"type": "double", "name": "campo_95_indpos_targetEncoder", "required": true},
+    {"type": "double", "name": "campo_53_targetEncoder", "required": true}, {"type":
+    "double", "name": "campo_51_targetEncoder", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-03-11 16:36:14.957743'

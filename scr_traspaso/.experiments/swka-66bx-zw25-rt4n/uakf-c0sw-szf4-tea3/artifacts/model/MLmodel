@@ -1,0 +1,38 @@
+artifact_path: model
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.0
+mlflow_version: 2.10.0
+model_size_bytes: 3947
+model_uuid: 8d4426bca8b143dea0e99fe7fdf1f44a
+run_id: uakf-c0sw-szf4-tea3
+signature:
+  inputs: '[{"type": "double", "name": "campo_78", "required": true}, {"type": "double",
+    "name": "campo_71", "required": true}, {"type": "double", "name": "campo_23",
+    "required": true}, {"type": "double", "name": "campo_70", "required": true}, {"type":
+    "double", "name": "campo_91", "required": true}, {"type": "double", "name": "campo_95_indmag",
+    "required": true}, {"type": "double", "name": "campo_74", "required": true}, {"type":
+    "double", "name": "campo_101", "required": true}, {"type": "double", "name": "campo_87",
+    "required": true}, {"type": "double", "name": "campo_73", "required": true}, {"type":
+    "double", "name": "campo_92", "required": true}, {"type": "double", "name": "campo_35",
+    "required": true}, {"type": "double", "name": "campo_80", "required": true}, {"type":
+    "double", "name": "campo_72", "required": true}, {"type": "double", "name": "campo_75",
+    "required": true}, {"type": "double", "name": "campo_77", "required": true}, {"type":
+    "double", "name": "campo_84", "required": true}, {"type": "double", "name": "campo_76",
+    "required": true}, {"type": "double", "name": "campo_86", "required": true}, {"type":
+    "double", "name": "campo_61", "required": true}, {"type": "double", "name": "campo_68",
+    "required": true}, {"type": "double", "name": "campo_94", "required": true}, {"type":
+    "double", "name": "campo_39", "required": true}, {"type": "double", "name": "campo_79",
+    "required": true}, {"type": "double", "name": "campo_26", "required": true}, {"type":
+    "double", "name": "campo_69", "required": true}, {"type": "double", "name": "campo_22",
+    "required": true}, {"type": "double", "name": "campo_85", "required": true}, {"type":
+    "double", "name": "campo_62", "required": true}, {"type": "double", "name": "campo_37",
+    "required": true}, {"type": "double", "name": "campo_83_indmag", "required": true},
+    {"type": "double", "name": "campo_93", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    9]}}]'
+  params: null
+utc_time_created: '2024-03-11 16:12:51.099426'

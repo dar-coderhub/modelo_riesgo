@@ -1,0 +1,49 @@
+# Configuración para el manejo de valores nulos
+# strategy opciones: 'drop_column', 'drop_rows', 'fill_mean', 'fill_median', 'custom_function'
+
+# Estrategia general para valores nulos en todo el conjunto de datos
+# Se aplican secuencialmente
+# Se aplican despues de column_strategies
+general_strategy:
+  - dataframe_strategy: all
+    strategy: custom_function  
+    custom_function: reemplazar_nulos
+    valor_reemplazo: np.nan   
+
+  - dataframe_strategy: all
+    strategy: drop_rows  
+    thresh: 0.90 
+
+  - dataframe_strategy: all
+    strategy: drop_columns  
+    thresh: 0.95
+
+
+  - dataframe_strategy: object
+    strategy: custom_function  
+    custom_function: reemplazar_nulos
+    valor_reemplazo: NULO  
+
+  - dataframe_strategy: numeric
+    strategy: custom_function  
+    custom_function: reemplazar_nulos
+    valor_reemplazo: -999  
+
+
+    # Manejo específico de nulos para columnas particulares
+# Se aplican secuencialmente
+column_strategies:
+  - column_name: campo_60
+    strategy: custom_function  
+    custom_function: reemplazar_nulos
+    valor_reemplazo: 0  
+
+  - column_name: campo_20
+    strategy: custom_function  
+    custom_function: reemplazar_nulos
+    valor_reemplazo: SR  
+
+  - column_name: campo_34
+    strategy: custom_function  
+    custom_function: reemplazar_nulos
+    valor_reemplazo: NULO
