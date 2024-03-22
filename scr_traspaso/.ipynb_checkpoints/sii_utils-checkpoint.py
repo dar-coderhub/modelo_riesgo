@@ -4,7 +4,7 @@ import yaml
 import numpy as np
 import string
 
-
+#para test
 def suppress_warnings(tipo = 'all'):
     """Suprime todas las advertencias en el código."""
     if tipo == 'all':
