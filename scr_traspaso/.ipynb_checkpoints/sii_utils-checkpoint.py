@@ -4,7 +4,8 @@ import yaml
 import numpy as np
 import string
 
-#para test
+# Función para suprimir los mensajes de warning
+
 def suppress_warnings(tipo = 'all'):
     """Suprime todas las advertencias en el código."""
     if tipo == 'all':
@@ -12,9 +13,7 @@ def suppress_warnings(tipo = 'all'):
     if tipo == 'pw':
         warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 
-
-
-
+# 
 def _convert_types(_conv_dataset: pd.DataFrame, filename = "config_types.yml"):
     
     """
