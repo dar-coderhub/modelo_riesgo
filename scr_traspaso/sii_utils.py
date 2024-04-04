@@ -4,7 +4,9 @@ import yaml
 import numpy as np
 import string
 
+
 # Función para suprimir los mensajes de warning
+
 def suppress_warnings(tipo = 'all'):
     """Suprime todas las advertencias en el código."""
     if tipo == 'all':
