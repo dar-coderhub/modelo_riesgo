@@ -4,7 +4,7 @@ import yaml
 import numpy as np
 import string
 
-# este es un cambio de test
+# este es un cambio de test v2
 # Función para suprimir los mensajes de warning
 
 def suppress_warnings(tipo = 'all'):
